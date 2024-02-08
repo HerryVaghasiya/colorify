@@ -1,0 +1,30 @@
+{
+  "name": "colorify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HerryVaghasiya/colorify.git"
+  },
+  "keywords": [
+    "console log colors",
+    "colorify logs"
+  ],
+  "author": "HV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HerryVaghasiya/colorify/issues"
+  },
+  "homepage": "https://github.com/HerryVaghasiya/colorify#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+  ,
+  "files": ["lib/**/*"]
+}
