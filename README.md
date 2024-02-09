@@ -4,6 +4,8 @@
 ```
 import { Log } from 'herrycolorify';
 
-Log.sum(10,20)
+ useEffect(()=>{
+    Log.sum(10,20)
+  },[])
 
 ```
